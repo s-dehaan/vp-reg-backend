@@ -1,0 +1,14 @@
+{
+  "name": "node-express-typescript",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "humao.rest-client", "redhat.vscode-yaml"]
+    }
+  },
+
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
